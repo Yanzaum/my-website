@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <title>Yan David - My Website!</title>
+</head>
+<body>
+    <button onclick="toggleTheme('light');" id="light" class="float">
+        <i class="icon-mode bi bi-lightbulb"></i>
+    </button>
+    <button onclick="toggleTheme('dark');" id="dark" class="float d-none">
+        <i class="icon-mode bi bi-moon-fill"></i>
+    </button>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="logo">
+                    <a href="index.html">Y</a>
+                </div>
+                <div class="options">
+                    <li><a class="a-menu" href="#">Sobre</a></li>
+                    <li><a class="a-menu" href="#">Competências</a></li>
+                    <li><a class="a-menu" href="#">Contato</a></li>
+                </div>
+                <!-- <div class="hambuguer-btn">
+                    <span></span>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <div class="container">
+        <div class="row justify-content-between main">
+            <div class="intro">
+                <h3>< Hello World! /></h3>
+                <h1>Eu sou o Yan David</h1>
+                <h3>Web Developer</h3>
+                <button class="btn-index"><a class="link-index" href="#">Saiba mais sobre</a></button>
+            </div>
+            <div class="image">
+                <img src="img/photo.jpg" class="mx-auto d-block photo-index">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/modes.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>

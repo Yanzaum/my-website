@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+:root {
+    --background-primary: #fff;
+    --color-primary: #121212;
+}
+
+html[data-theme='dark'] {
+    --background-primary: #121212;
+    --color-primary: #fff;
+}
+
+html, body {
+    transition: background-color 300ms, color 300ms;
+    background-color: var(--background-primary);
+    color: var(--color-primary);
+    
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*:not(i) {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+:before, :after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.options > li {
+    margin-left: 40px;
+    display: inline;
+    vertical-align: bottom;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+nav {
+    background-color: var(--background-primary);
+    padding: 20px 15px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+nav .logo a {
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    color: var(--color-primary);
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* nav .hambuguer-btn {
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .hambuguer-btn span {
+    display: block;
+    height: 2px;
+    width: 16px;
+    background-color: red;
+} */
+
+
+
+h1, h2, h3, h4, p {
+    color: var(--color-primary);
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.main {
+    margin-top: 300px;
+}
+
+.float {
+    border: 2px var(--color-primary) solid;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 30px;
+	right: 30px;
+	background-color: var(--background-primary);
+	border-radius: 50px;
+	text-align: center;
+}
+
+.icon-mode {
+    font-size: 30px;
+    color: var(--color-primary);
+}
+
+.photo-index {
+    border-radius: 50%;
+    width: 20vw;
+}
+
+.btn-index {
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #66FCF1;
+    border: transparent 1px solid;
+    border-radius: 12px;
+}
+
+.btn-index:hover {
+    background-color: #5be2d8;
+}
+
+.link-index {
+    color: black;
+}
+
+.a-menu {
+    color: var(--color-primary);
+}
+
+.d-none {
+    display: none;
+}
+  
