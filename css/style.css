@@ -156,12 +156,14 @@ header nav li a {
 
 .container .intro a {
     background-color: #66FCF1;
+    width: 150px;
     padding: 12px;
     cursor: pointer;
     border: transparent 1px solid;
     border-radius: 12px;
     margin-top: 20px;
     
+    text-align: center;
     text-decoration: none;
     color: black;
     font-size: 15px;
